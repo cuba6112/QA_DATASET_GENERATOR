@@ -72,7 +72,7 @@ class SettingsPage(ttk.Frame):
         ttk.Label(self, text="API URL:").grid(
             row=5, column=0, padx=5, pady=5, sticky="w")
         self.api_url_var = ttk.StringVar(value=self.settings.get(
-            "api_url", "http://47.18.235.71:11434/api/generate"))
+            "api_url", "http://localhost:11434/api/generate"))
         self.api_url_entry = ttk.Entry(self, textvariable=self.api_url_var)
         self.api_url_entry.grid(row=5, column=1, padx=5, pady=5, sticky="ew")
 
