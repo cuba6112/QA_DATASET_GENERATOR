@@ -1,0 +1,23 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
+
+# Database files
+*.db
+
+# JSON files (if you don't want to include generated datasets)
+*.json
+
+# Log files
+*.log
+
+# Environment variables
+.env
